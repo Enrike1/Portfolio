@@ -1,0 +1,88 @@
+/* display background color grey (with 25% transparency) on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #80808075;
+}
+/* hero background image */
+.bgimage {
+/* 100vh significa que la altura del cuerpo inicial tomará el 100 % de la altura de la ventana gráfica */ 
+    height:100vh;
+    background: url('heroImage.png');
+/* background-size:cover; means the background image will always fit the whole div */
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image
+   si el navegador utiliza un tamaño de fuente de 16 px, un elemento con el valor 2rem será igual a 32px */
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* la imagen se rota 180° con "transform: rotate(180deg)", ya que es la misma de desplazarse-hacia-abajo */
+.desplazarse-hacia-arriba {
+  position: fixed;
+  right: 3.5%;
+  bottom: 60%;
+  cursor: pointer;
+  transform: rotate(180deg);
+  background-color: #92a8d1;
+}
+
+.flecha-arriba {
+  width: 8rem;
+  height: 8rem;
+}
+
+.desplazarse-hacia-abajo {
+  position: fixed;
+  right: 3.5%;
+  bottom: 10%;
+  cursor: pointer;
+  background-color: #92a8d1;
+}
+
+.flecha-abajo {
+  width: 8rem;
+  height: 8rem;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: black;
+}
+/* social media icons color */
+.fab {
+    color: blue;
+}
+/* footer styling: bg-color (with 75% transparency), and text centered */
+#footer {
+    background-color: #80808025;
+    text-align: center;
+}

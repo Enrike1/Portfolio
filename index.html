@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website - Enrique</title>
+  <meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1? />
+  <!-- initial-scale=1.0 establece el nivel de zoom inicial cuando el navegador carga la página por primera vez -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Enlace al archivo de estilos: style.css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN (public Content Delivery Network): red pública de entrega de contenido, para cargar CSS, JavaScript e imágenes remotas -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome: biblioteca de íconos y kit de herramientas de Internet -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container text-center">
+    	    <!-- acceso al sitio de "argentina-programa" -->
+            <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"" target="_blank"> <img src="faviconArgProg.jpeg" width="20" height="20" style = "border-radius: 2.5px;" >Argentina Programa</a>
+	        <!-- bg-secondary le da color gris al botón -->
+            	<button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item active" >
+                        <a style="color:white;" class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white;" class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white;" class="nav-link" href="#services">Servicios</a>
+                    <li class="nav-item">
+                        <a style="color:white;" class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white;" class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner: hero background image (en archivo externo style.CSS y hero-text -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Enrique</h2>
+                <p class="hero_desc">Freelancer profesional en Córdoba</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Acerca de</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+		    <!-- imagen de radio a galena: galena.png-->
+                    <img src="galena.png" class= "imageAboutPage" alt="Radio a galena">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Kolade Chris</li>
+                                <li>Occupation: Web developer and technical writer</li>
+                            </ul>
+				<div class="text-center">
+                                <a href="https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/" class="btn btn-success" target="_blank">Chris website</a>
+				</div>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Sampurna Chapagain</li>
+                                <li>Occupation: Web Developer with a passion for writing</li>
+                            </ul>
+				<div class="text-center">
+                                <a href="https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/" class="btn btn-success" " target="_blank">Sampurna website</a>
+				</div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+        <section id="services"> 
+        <div class="container">
+            <h1 class="text-center">Servicios</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-layer-group"></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text mt-3">Some quick Lorem Ipsum example text to build on the card title and make up the bulk of the card's content.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived five centuries.
+                            </p>
+                            <div class="text-center">
+		    		<a href="https://stackoverflow.com/questions/49160572/bootstrap-3-card" class="btn btn-success" target="_blank">stackoverflow</a>
+                       </div>
+                    </div>  
+                </div>  
+            </div>  
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">Some quick Lorem Ipsum example text to build on the card title and make up the bulk of the card's content.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived five centuries.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://onecompiler.com/html/3yuhuf3bt" class="btn btn-success" class="btn btn-success" " target="_blank">OneCompiler</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>  
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-check-circle"></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text mt-3">Some quick Lorem Ipsum example text to build on the card title and make up the bulk of the card's content.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived five centuries.
+                            </p>
+                            <div class="text-center">
+			    <a href="https://www.w3schools.com/" class="btn btn-success" target="_blank">w3schools</a>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+       <!-- <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO</h4>
+                            <p class="card-text mt-3">Some quick Lorem Ipsum example text to build on the card title and make up the bulk of the card's content.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived five centuries.
+			    </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">DevOps</h4>
+                            <p class="card-text mt-3">Some quick Lorem Ipsum example text to build on the card title and make up the bulk of the card's content.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived five centuries.
+			    </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">Some quick Lorem Ipsum example text to build on the card title and make up the bulk of the card's content.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived five centuries.
+			    </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- portfolio section -->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portafolio</h1>
+            <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="Landing page.png" alt="Landing page" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Landing Page</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="https://blog.templatetoaster.com/how-to-design-a-landing-page" class="btn btn-success" " target="_blank">Landing page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Buho.png" alt="Búho nival" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YouTube Clone</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="https://www.elconfidencial.com/alma-corazon-vida/2021-01-29/buho-nival-blanco-central-park-harry-potter-nueva-york_2927691/" class="btn btn-success" " target="_blank">Búho nival</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="white beard.png" alt="white beard" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="https://www.philips.es/c-e/afeitado-para-hombres/barba-canosa-como-cuidar-una-barba-con-canas.html" class="btn btn-success" " target="_blank">White-beard</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       <!-- <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Messaging Service</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> -->
+
+    <!-- contact section -->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contacto</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Av.+Vélez+Sarsfield+1559,+X5000+Córdoba,+Argentina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <!-- form fields -->
+                  <!-- El atributo de action es una URL de Formspree. Allí se envía el formulario, y se recibe el mensaje directamente en la bandeja de entrada del correo electrónico, sin necesidad de configurar un servidor con PHP o JavaScript. -->
+                  <!-- Formspree es un backend para formularios, una API y un servicio de correo electrónico para formularios HTML y JavaScript. -->
+                  <!-- La URL se configura en el sitio web de Formspreee de forma gratuita.  
+                  <!-- Se puede ver cómo configurar Formspree en el sitio: https://formspree.io/ -->
+                  <!-- El atributo required provee una validación básica, así el formulario se niega a enviar la información si el usuario deja algún campo vacío. -->
+
+                  <form action="https://formspree.io/f/xyylnggw" method="POST" >
+   		    <p>
+  		    Name: <input type='text' 
+			class="form-control 
+			form-control-lg" 
+			name='Name' 
+			required />
+   		    </p>
+   		    <p>
+   		    Email: <input type="email" 
+			class="form-control mt-3" 
+			name='Email' 
+			required />
+   		    </p>
+   		    <p>
+   		    Subject: <input type='text' 
+			class="form-control mt-3" 
+			name='Subject'
+			required />
+		    </p>
+                        <div class="mb-3 mt-3">
+   		    	    <p>
+   		    	    Project Details: <textarea input type='text' 
+				class="form-control" 
+				rows="5" 
+				id="comment"  
+				name=''
+				required /></textarea>
+		    	    </p>
+                        </div>
+   		    <p>
+   		    <input type='submit' 
+			class="btn btn-success mt-3" 
+			name='Submit' 
+			value='Enviar' />
+   		    </p>
+                    </form>
+
+    </section>
+
+<!-- desplazarse-hacia-arriba y desplazarse-hacia-abajo: crea dos cajas entre los símbolos <i y </i>, donde el texto se verá en itálica -->
+<!-- estos botones facilitan los desplazamientos verticales, al ser mayores que los de la barra lateral derecha -->
+<!-- la imagen "icons8-down.gif" será rotada 180° con la propiedad transform de CSS -->
+<i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+      ><img
+        src="icons8-down.gif" width="30" height="30" style = "border-radius: 100px;"
+        class="socicon up-arrow"
+        alt="desplazarse-hacia-arriba"
+    /></i>
+
+<!-- Aquí, la imagen "icons8-down.gif" no necesita ser rotada 180° con la propiedad transform de CSS -->
+<i class="desplazarse-hacia-abajo" id="desplazarse-hacia-abajo"
+      ><img
+        src="icons8-down.gif" width="30" height="30" style = "border-radius: 100px;"
+        class="socicon down-arrow"
+        alt="desplazarse-hacia-abajo"
+    /></i>
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <!-- El navegador carga el html (DOM: modelo de objeto de documento) al principio -->
+    <!-- Se cargan los recursos externos de arriba a abajo, línea por línea -->
+    <!-- Si aparece un <script>, deja de cargar hasta que el archivo JS se carga y ejecuta, luego continúa -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
