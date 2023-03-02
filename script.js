@@ -1,10 +1,12 @@
-// add class navbarDark on navbar scroll// classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element
+// add class navbarDark on navbar scroll
+
+// classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element
 
 // The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned
 
 const header = document.querySelector('.navbar-dark');
 
-// console. log() envía un mensaje a la consola del navegador sin interrumpir el funcionamiento de la web; alert() muestra una ventana con el mensaje encima del navegador y no permite continuar hasta pulsar en el botón aceptar 
+// console. log() envía un mensaje a la consola del navegador sin interrumpir el funcionamiento de la web; alert() muestra una ventana con el mensaje encima del navegador y no permite continuar hasta pulsar en el botón aceptar (por eso no se usó aquí alert())  
 
 console.log(header)
 
